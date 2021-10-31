@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0967876627274F3800E4B142 /* TopBrazilianClubsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0967876527274F3800E4B142 /* TopBrazilianClubsUITests.swift */; };
+		0967876827274F3800E4B142 /* TopBrazilianClubsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0967876727274F3800E4B142 /* TopBrazilianClubsUITestsLaunchTests.swift */; };
 		09729DA02710BE5F00970C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09729D9F2710BE5F00970C9E /* AppDelegate.swift */; };
 		09729DA22710BE5F00970C9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09729DA12710BE5F00970C9E /* SceneDelegate.swift */; };
 		09729DA42710BE5F00970C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09729DA32710BE5F00970C9E /* ViewController.swift */; };
@@ -20,7 +22,20 @@
 		09DF0793271753C000FF9EE5 /* ClubCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF0792271753C000FF9EE5 /* ClubCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0967876927274F3800E4B142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09729D942710BE5F00970C9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09729D9B2710BE5F00970C9E;
+			remoteInfo = TopBrazilianClubs;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0967876327274F3800E4B142 /* TopBrazilianClubsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopBrazilianClubsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0967876527274F3800E4B142 /* TopBrazilianClubsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBrazilianClubsUITests.swift; sourceTree = "<group>"; };
+		0967876727274F3800E4B142 /* TopBrazilianClubsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBrazilianClubsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		09729D9C2710BE5F00970C9E /* TopBrazilianClubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopBrazilianClubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09729D9F2710BE5F00970C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09729DA12710BE5F00970C9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0967876027274F3800E4B142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09729D992710BE5F00970C9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,10 +69,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0967876427274F3800E4B142 /* TopBrazilianClubsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0967876527274F3800E4B142 /* TopBrazilianClubsUITests.swift */,
+				0967876727274F3800E4B142 /* TopBrazilianClubsUITestsLaunchTests.swift */,
+			);
+			path = TopBrazilianClubsUITests;
+			sourceTree = "<group>";
+		};
 		09729D932710BE5F00970C9E = {
 			isa = PBXGroup;
 			children = (
 				09729D9E2710BE5F00970C9E /* TopBrazilianClubs */,
+				0967876427274F3800E4B142 /* TopBrazilianClubsUITests */,
 				09729D9D2710BE5F00970C9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				09729D9C2710BE5F00970C9E /* TopBrazilianClubs.app */,
+				0967876327274F3800E4B142 /* TopBrazilianClubsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +118,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0967876227274F3800E4B142 /* TopBrazilianClubsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0967876D27274F3800E4B142 /* Build configuration list for PBXNativeTarget "TopBrazilianClubsUITests" */;
+			buildPhases = (
+				0967875F27274F3800E4B142 /* Sources */,
+				0967876027274F3800E4B142 /* Frameworks */,
+				0967876127274F3800E4B142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0967876A27274F3800E4B142 /* PBXTargetDependency */,
+			);
+			name = TopBrazilianClubsUITests;
+			productName = TopBrazilianClubsUITests;
+			productReference = 0967876327274F3800E4B142 /* TopBrazilianClubsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		09729D9B2710BE5F00970C9E /* TopBrazilianClubs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09729DB02710BE6200970C9E /* Build configuration list for PBXNativeTarget "TopBrazilianClubs" */;
@@ -112,6 +163,10 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					0967876227274F3800E4B142 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 09729D9B2710BE5F00970C9E;
+					};
 					09729D9B2710BE5F00970C9E = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -131,11 +186,19 @@
 			projectRoot = "";
 			targets = (
 				09729D9B2710BE5F00970C9E /* TopBrazilianClubs */,
+				0967876227274F3800E4B142 /* TopBrazilianClubsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0967876127274F3800E4B142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09729D9A2710BE5F00970C9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,6 +212,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0967875F27274F3800E4B142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0967876627274F3800E4B142 /* TopBrazilianClubsUITests.swift in Sources */,
+				0967876827274F3800E4B142 /* TopBrazilianClubsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09729D982710BE5F00970C9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -165,6 +237,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0967876A27274F3800E4B142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09729D9B2710BE5F00970C9E /* TopBrazilianClubs */;
+			targetProxy = 0967876927274F3800E4B142 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		09729DA52710BE5F00970C9E /* Main.storyboard */ = {
@@ -186,6 +266,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0967876B27274F3800E4B142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8SS8BRWWP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.hugocoutinho.ImportSwiftFilesIntoObjc.TopBrazilianClubsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopBrazilianClubs;
+			};
+			name = Debug;
+		};
+		0967876C27274F3800E4B142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8SS8BRWWP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.hugocoutinho.ImportSwiftFilesIntoObjc.TopBrazilianClubsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopBrazilianClubs;
+			};
+			name = Release;
+		};
 		09729DAE2710BE6200970C9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -365,6 +489,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0967876D27274F3800E4B142 /* Build configuration list for PBXNativeTarget "TopBrazilianClubsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0967876B27274F3800E4B142 /* Debug */,
+				0967876C27274F3800E4B142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		09729D972710BE5F00970C9E /* Build configuration list for PBXProject "TopBrazilianClubs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

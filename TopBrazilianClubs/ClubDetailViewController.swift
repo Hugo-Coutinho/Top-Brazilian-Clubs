@@ -16,6 +16,7 @@ class ClubDetailViewController: UIViewController {
         imageView.accessibilityTraits = .image
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.accessibilityIgnoresInvertColors = true
+        imageView.accessibilityIdentifier = "ClubImage"
         return imageView
     }()
     
@@ -30,6 +31,7 @@ class ClubDetailViewController: UIViewController {
         descriptionLabel.accessibilityTraits = .staticText
         descriptionLabel.adjustsFontForContentSizeCategory = true
         descriptionLabel.accessibilityIgnoresInvertColors = true
+        descriptionLabel.accessibilityIdentifier = "ClubDescription"
         return descriptionLabel
     }()
     
@@ -44,6 +46,7 @@ class ClubDetailViewController: UIViewController {
         nationalLeagueWinLabel.accessibilityTraits = .staticText
         nationalLeagueWinLabel.adjustsFontForContentSizeCategory = true
         nationalLeagueWinLabel.accessibilityIgnoresInvertColors = true
+        nationalLeagueWinLabel.accessibilityIdentifier = "clubWins"
         return nationalLeagueWinLabel
     }()
     
