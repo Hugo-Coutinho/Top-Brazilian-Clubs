@@ -8,16 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0967876627274F3800E4B142 /* TopBrazilianClubsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0967876527274F3800E4B142 /* TopBrazilianClubsUITests.swift */; };
-		0967876827274F3800E4B142 /* TopBrazilianClubsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0967876727274F3800E4B142 /* TopBrazilianClubsUITestsLaunchTests.swift */; };
 		09729DA02710BE5F00970C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09729D9F2710BE5F00970C9E /* AppDelegate.swift */; };
 		09729DA22710BE5F00970C9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09729DA12710BE5F00970C9E /* SceneDelegate.swift */; };
 		09729DA42710BE5F00970C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09729DA32710BE5F00970C9E /* ViewController.swift */; };
 		09729DA72710BE5F00970C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09729DA52710BE5F00970C9E /* Main.storyboard */; };
 		09729DA92710BE6200970C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09729DA82710BE6200970C9E /* Assets.xcassets */; };
 		09729DAC2710BE6200970C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09729DAA2710BE6200970C9E /* LaunchScreen.storyboard */; };
-		09729DB42710BF3200970C9E /* TeamsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09729DB32710BF3200970C9E /* TeamsService.swift */; };
+		09729DB42710BF3200970C9E /* TeamEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09729DB32710BF3200970C9E /* TeamEntity.swift */; };
 		09729DB62710C54D00970C9E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09729DB52710C54D00970C9E /* TableViewCell.swift */; };
-		09729DB82710CEE200970C9E /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09729DB72710CEE200970C9E /* UITableViewCell.swift */; };
+		09729DB82710CEE200970C9E /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09729DB72710CEE200970C9E /* UIImageView.swift */; };
 		099FE28127189C22008EBA01 /* ClubDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099FE28027189C22008EBA01 /* ClubDetailViewController.swift */; };
 		09DF0793271753C000FF9EE5 /* ClubCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF0792271753C000FF9EE5 /* ClubCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -35,7 +34,6 @@
 /* Begin PBXFileReference section */
 		0967876327274F3800E4B142 /* TopBrazilianClubsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopBrazilianClubsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0967876527274F3800E4B142 /* TopBrazilianClubsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBrazilianClubsUITests.swift; sourceTree = "<group>"; };
-		0967876727274F3800E4B142 /* TopBrazilianClubsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBrazilianClubsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		09729D9C2710BE5F00970C9E /* TopBrazilianClubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopBrazilianClubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09729D9F2710BE5F00970C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09729DA12710BE5F00970C9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +42,9 @@
 		09729DA82710BE6200970C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09729DAB2710BE6200970C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09729DAD2710BE6200970C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09729DB32710BF3200970C9E /* TeamsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsService.swift; sourceTree = "<group>"; };
+		09729DB32710BF3200970C9E /* TeamEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamEntity.swift; sourceTree = "<group>"; };
 		09729DB52710C54D00970C9E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		09729DB72710CEE200970C9E /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		09729DB72710CEE200970C9E /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		099FE28027189C22008EBA01 /* ClubDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDetailViewController.swift; sourceTree = "<group>"; };
 		09DF0792271753C000FF9EE5 /* ClubCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				0967876527274F3800E4B142 /* TopBrazilianClubsUITests.swift */,
-				0967876727274F3800E4B142 /* TopBrazilianClubsUITestsLaunchTests.swift */,
 			);
 			path = TopBrazilianClubsUITests;
 			sourceTree = "<group>";
@@ -99,20 +96,60 @@
 		09729D9E2710BE5F00970C9E /* TopBrazilianClubs */ = {
 			isa = PBXGroup;
 			children = (
-				09729D9F2710BE5F00970C9E /* AppDelegate.swift */,
-				09729DA12710BE5F00970C9E /* SceneDelegate.swift */,
-				09729DA32710BE5F00970C9E /* ViewController.swift */,
-				09729DA52710BE5F00970C9E /* Main.storyboard */,
+				09E13DBE2732CB6B007DAED8 /* Setting */,
+				09E13DBD2732C9DD007DAED8 /* Extension */,
+				09E13DBC2732C99A007DAED8 /* Controller */,
+				09E13DBB2732C98E007DAED8 /* View */,
+				09E13DBA2732C987007DAED8 /* Model */,
 				09729DA82710BE6200970C9E /* Assets.xcassets */,
 				09729DAA2710BE6200970C9E /* LaunchScreen.storyboard */,
 				09729DAD2710BE6200970C9E /* Info.plist */,
-				09729DB32710BF3200970C9E /* TeamsService.swift */,
-				09729DB52710C54D00970C9E /* TableViewCell.swift */,
-				09729DB72710CEE200970C9E /* UITableViewCell.swift */,
-				09DF0792271753C000FF9EE5 /* ClubCollectionViewCell.swift */,
-				099FE28027189C22008EBA01 /* ClubDetailViewController.swift */,
 			);
 			path = TopBrazilianClubs;
+			sourceTree = "<group>";
+		};
+		09E13DBA2732C987007DAED8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09729DB32710BF3200970C9E /* TeamEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09E13DBB2732C98E007DAED8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09DF0792271753C000FF9EE5 /* ClubCollectionViewCell.swift */,
+				09729DB52710C54D00970C9E /* TableViewCell.swift */,
+				09729DA52710BE5F00970C9E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09E13DBC2732C99A007DAED8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				099FE28027189C22008EBA01 /* ClubDetailViewController.swift */,
+				09729DA32710BE5F00970C9E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09E13DBD2732C9DD007DAED8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				09729DB72710CEE200970C9E /* UIImageView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		09E13DBE2732CB6B007DAED8 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				09729DA12710BE5F00970C9E /* SceneDelegate.swift */,
+				09729D9F2710BE5F00970C9E /* AppDelegate.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0967876627274F3800E4B142 /* TopBrazilianClubsUITests.swift in Sources */,
-				0967876827274F3800E4B142 /* TopBrazilianClubsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,9 +266,9 @@
 				09729DB62710C54D00970C9E /* TableViewCell.swift in Sources */,
 				09729DA42710BE5F00970C9E /* ViewController.swift in Sources */,
 				09729DA02710BE5F00970C9E /* AppDelegate.swift in Sources */,
-				09729DB82710CEE200970C9E /* UITableViewCell.swift in Sources */,
+				09729DB82710CEE200970C9E /* UIImageView.swift in Sources */,
 				09729DA22710BE5F00970C9E /* SceneDelegate.swift in Sources */,
-				09729DB42710BF3200970C9E /* TeamsService.swift in Sources */,
+				09729DB42710BF3200970C9E /* TeamEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
